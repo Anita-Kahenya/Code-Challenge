@@ -45,7 +45,8 @@ As a user, I can:
     {
       "id": 1,
       "name": "Mr. Cute",
-      "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
+      "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.
+      gif",
       "votes": 0
     },
     {
@@ -53,7 +54,7 @@ As a user, I can:
       "name": "Mr. Monkey",
       "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
       "votes": 0
-    },
+    }, 
     ...
    ]
    ```
