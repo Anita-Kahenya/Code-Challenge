@@ -29,12 +29,19 @@ function naming(data) {
     });
   });
 }
-//  votes.textContent = item.votes
-//  names.appendChild(totalCount)
-const form= document.getElementById("votes-form")
-form.addEventListener ("submit", (event)=>{
-  event.preventDefault()
- let votes = document.getElementById("votes").values
- console.log(votes)
-})
-
+//  votes.textContent = item.votes//
+//  names.appendChild(totalCount)//
+// const form= document.getElementById("votes-form")
+// form.addEventListener ("submit", (event)=>{
+//   event.preventDefault()
+//  let votes = document.getElementById("vote-count").values
+//  console.log(votes);
+// })
+voteForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  addVote(event.target.votes.value);
+  votesForm.reset();
+});
+function addVote(voteCount) {
+  document.getElementById("vote-count").innerHTML = `${voteCount}`;
+}
